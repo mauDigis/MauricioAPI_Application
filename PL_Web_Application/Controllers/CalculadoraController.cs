@@ -40,7 +40,7 @@ namespace PL_Web_Application.Controllers
             return Ok("La multiplicación es: " + (Numero1 * Numero2));
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("api/Division")]
         public IHttpActionResult Division(int Numero1, int Numero2)
         {
